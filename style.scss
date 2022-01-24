@@ -1156,6 +1156,7 @@ header, footer {
       .filters-block__1 {
         .filters-block__menu {
           width: unset;
+          margin: -40px 0 0 -17px;
         }
         .filter-text {
           display: none;
@@ -1203,6 +1204,31 @@ header, footer {
       .product-page__filters__btn {
         margin-top: 64px;
       }
+    }
+  }
+
+};
+
+@media (max-width: 320px) {
+  .main-page, .catalog-page, .product-page {
+    .subscribe-block .items .items__2 .block-subscribe {
+      .block-subscribe__input {
+        width: 130px;
+      }
+    }
+  }
+  .catalog-page {
+    .filters-block .filters-block__2 .filter {
+      padding-right: 10px;
+      .arrow-down-icon {
+        padding-left: 3px;
+      }
+    }
+  }
+  .product-page .collections-block .filters ul li {
+    padding-right: 14px;
+    .icon {
+      padding-left: 3px;
     }
   }
 
