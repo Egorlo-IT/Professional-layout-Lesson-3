@@ -1153,8 +1153,13 @@ header, footer {
         height: 25px;
         width: 37.5px;
       }
-      .filters-block__1 .filter-text {
-        display: none;
+      .filters-block__1 {
+        .filters-block__menu {
+          width: unset;
+        }
+        .filter-text {
+          display: none;
+        }
       }
       .filters-block__2 {
         .filter {
@@ -1166,9 +1171,6 @@ header, footer {
             padding-right: 0;
           }
         }
-      }
-      .filters-block__menu {
-        margin: -40px 0 0 -17px;
       }
     }
     .products {

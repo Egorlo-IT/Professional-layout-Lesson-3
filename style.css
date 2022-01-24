@@ -1641,6 +1641,9 @@ a {
     height: 25px;
     width: 37.5px;
   }
+  .catalog-page .filters-block .filters-block__1 .filters-block__menu {
+    width: unset;
+  }
   .catalog-page .filters-block .filters-block__1 .filter-text {
     display: none;
   }
@@ -1652,9 +1655,6 @@ a {
   }
   .catalog-page .filters-block .filters-block__2 .filter:last-child {
     padding-right: 0;
-  }
-  .catalog-page .filters-block .filters-block__menu {
-    margin: -40px 0 0 -17px;
   }
   .catalog-page .products {
     padding-top: 32px;
